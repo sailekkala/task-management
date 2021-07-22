@@ -1,0 +1,30 @@
+.jokes-card-wrapper {
+  padding: 10px;
+
+  .card-post {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    margin-bottom: 1.3rem !important;
+    min-height: 11.5rem;
+    border: none;
+    border-radius: .625rem;
+    box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+
+    .card-title {
+      font-weight: 500;
+      margin-bottom: .75rem;
+      font-size: 1.25rem;
+      color: #3d5170;
+    }
+
+    .text-muted {
+      color: #868e96 !important;
+    }
+  }
+}
+

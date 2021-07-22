@@ -1,0 +1,9 @@
+.home_wrapper {
+  height: calc(100vh - 64px);
+  text-align: center;
+  margin: auto;
+  display: flex;
+  place-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}

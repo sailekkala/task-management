@@ -1,0 +1,93 @@
+.task_wrapper {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+
+  .task_wrapper_card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: initial;
+    margin-bottom: 1.3rem !important;
+    border: none;
+    border-radius: .625rem;
+    box-shadow: 0 2px 0 rgb(90 97 105 / 11%), 0 4px 8px rgb(90 97 105 / 12%), 0 10px 10px rgb(90 97 105 / 6%), 0 7px 70px rgb(90 97 105 / 10%);
+    height: 100%;
+
+    .task_card_header {
+      height: 3.964rem;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      width: 100%;
+      place-content: center;
+      padding: 0 10px;
+
+      .task_title_header {
+        margin: 0 0 0 0.286rem;
+        font-family: Roboto;
+        font-size: 1.429rem;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.25;
+        letter-spacing: normal;
+        text-align: left;
+        color: #343a40;
+
+      }
+    }
+
+    .task_card_container {
+      height: calc(100% - 3.964rem);
+      overflow-y: auto;
+
+      .MuiTableContainer-root {
+        height: 90% !important;
+      }
+    }
+  }
+
+  .h100 {
+    height: 100%;
+  }
+
+}
+
+.task_create_form {
+  .container {
+    display: flex;
+    place-content: center;
+    height: 100%;
+    align-items: center;
+  }
+
+  .task_form_card {
+    width: 500px;
+  }
+
+  .form_container {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    place-content: center;
+  }
+
+  .buttons {
+    display: flex;
+    place-content: flex-end;
+    padding: 15px 0;
+  }
+
+  .custom-button {
+    margin-right: 1.5rem;
+  }
+
+  .MuiFormControl-root {
+    margin: 0.8rem 1.2rem
+  }
+}
+
